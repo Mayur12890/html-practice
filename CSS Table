@@ -1,0 +1,94 @@
+***
+HTML 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile Number</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>Mayur</td>
+            <td>mayur@123gmail.com</td>
+            <td>123456789</td>
+            <td>Pune</td>
+        </tr>
+        <tr>
+            <td>Rajesh</td>
+            <td>rajesh@123gmail.com</td>
+            <td>123456789</td>
+            <td>Mumbai</td>
+        </tr>
+        <tr>
+            <td>Kavya</td>
+            <td>kavya@123gmail.com</td>
+            <td>123456789</td>
+            <td>Pune</td>
+        </tr>
+        <tr>
+            <td>Sham</td>
+            <td>sham@123gmail.com</td>
+            <td>123456789</td>
+            <td>Pune</td>
+        </tr>
+        <tr>
+            <td>Kavita</td>
+            <td>kavita@123gmail.com</td>
+            <td>123456789</td>
+            <td>Nagpur</td>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>rahul@123gmail.com</td>
+            <td>123456789</td>
+            <td>Thane</td>
+        </tr>
+        <tr>
+            <td>Tushar</td>
+            <td>tushar@123gmail.com</td>
+            <td>123456789</td>
+            <td>Delhi</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+-----------------------
+
+CSS
+
+table{
+    border-collapse: collapse;
+    width: 40%;
+    box-shadow: 8px 8px 10px rgb(176, 175, 175);
+    margin: auto;
+}
+th, td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+th{
+    color: white;
+    background-color: rgb(184, 170, 170);
+}
+tr:hover{
+    background-color: rgb(171, 188, 202);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+tr:nth-child(even){
+    background-color: rgb(222, 236, 247);
+    color: rgb(199, 89, 89);
+}
+
+***
