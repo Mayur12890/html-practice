@@ -1,0 +1,56 @@
+HTML
+**** 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS gradient</title>
+    <link rel="stylesheet" href="css/css_gradient.css">
+</head>
+<body>
+    <div class="navbar">
+    </div>
+    <div class="navbar2">
+    </div>
+    <div class="navbar3">
+    </div>
+</body>
+</html>
+
+***
+
+CSS
+***
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Linear Gradient */
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(7, 177, 50), rgb(12, 109, 162), rgb(145, 7, 7));
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+/* Radial Gradient */
+.navbar2{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    background-image: radial-gradient(circle, rgb(7, 177, 50), rgb(12, 109, 162), rgb(145, 7, 7));
+    border-radius: 30px;
+}
+
+/* Conic gradient */
+.navbar3{
+    height: 250px;
+    width: 400px;
+    background-image:conic-gradient(rgb(7, 177, 50) 45deg, rgb(12, 109, 162) 60deg, rgb(145, 7, 7));
+    border-radius: 15px;
+}
+
+***
